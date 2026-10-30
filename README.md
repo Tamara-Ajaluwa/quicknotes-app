@@ -23,4 +23,4 @@ QuickNotes is a responsive note-taking web application built from scratch. It al
 * How to manage application state by keeping the user interface synchronised with stored data.
 * How to organise JavaScript code into reusable functions for better maintainability.
 * How to create a user-friendly experience with dynamic updates and instant feedback.
-* How to use CSS to create a responsive and visually appealing interface.
+* How to use HTML form controls such as labels, select dropdowns, and input fields to capture structured user data.
