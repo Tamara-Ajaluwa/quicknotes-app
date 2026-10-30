@@ -1,0 +1,138 @@
+/* Box-sizing reset and base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header, footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Flexbox form layout */
+#note-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+#note-input, #note-category {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button with visible :hover style */
+button {
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Error message styling */
+#error-message {
+    color: red;
+    margin-top: 0.5rem;
+    font-size: 0.9em;
+}
+
+/* Search input spacing */
+#search-input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#note-count {
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+#notes-list {
+    list-style-type: none;
+}
+
+/* Note Card Styling */
+.note-card {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Category-specific visual styles */
+.category-personal {
+    border-left: 5px solid teal;
+}
+
+.category-work {
+    border-left: 5px solid darkred;
+}
+
+.category-study {
+    border-left: 5px solid blue;
+}
+
+.note-date {
+    font-size: 0.8em;
+    color: #666;
+}
+
+.note-category-label {
+    font-size: 0.85em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    align-self: flex-start;
+}
+
+.delete-btn:hover {
+    background-color: #a71d2a;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+    main {
+        margin: 1rem auto;
+    }
+    
+    #note-form {
+        padding: 1rem;
+    }
+}
