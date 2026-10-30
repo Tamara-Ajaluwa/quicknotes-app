@@ -13,7 +13,7 @@ body {
 
 header, footer {
     background-color: #222;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     padding: 1rem;
 }
@@ -44,8 +44,8 @@ main {
 /* Button with visible :hover style */
 button {
     padding: 0.75rem;
-    background-color: #007bff;
-    color: white;
+    background-color: #fffb00;
+    color: black;
     border: none;
     border-radius: 4px;
     cursor: pointer;
