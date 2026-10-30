@@ -20,3 +20,7 @@ QuickNotes is a responsive note-taking web application built from scratch. It al
 * How to manipulate the DOM with JavaScript to dynamically create, delete, and update HTML elements.
 * How to use the browser's `localStorage` API to save and retrieve data across sessions.
 * How to implement real-time search filtering and form validation logic.
+* How to manage application state by keeping the user interface synchronised with stored data.
+* How to organise JavaScript code into reusable functions for better maintainability.
+* How to create a user-friendly experience with dynamic updates and instant feedback.
+* How to use CSS to create a responsive and visually appealing interface.
